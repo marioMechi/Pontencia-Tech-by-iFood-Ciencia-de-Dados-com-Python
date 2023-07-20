@@ -91,7 +91,7 @@ def main():
     while True:
         opcao = menu()
         if opcao == "d":
-            valor = float(input("Informeo valor dp depósito:"))
+            valor = float(input("Informe o valor do depósito:"))
             saldo, extrato = depositar(saldo, valor, extrato)
 
         elif opcao == "s":
